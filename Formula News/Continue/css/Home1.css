@@ -1,0 +1,428 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Common CSS
+--------------------------------------*/
+.home-1 {
+  letter-spacing: 0.15px;
+}
+
+.verstappenwas {
+  line-height: 123.9%;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+/*-------------------------------------
+  2. Page CSS
+--------------------------------------*/
+.home {
+  background-color: var(white);
+  width: 100%;
+}
+
+.columnformulane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerformulane {
+  display: flex;
+  background-color: var(--red_a700);
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 26px 20px;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 550px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.formulanews {
+  color: var(--black_900) !important;
+  letter-spacing: 0.3px;
+  font-family: Genos !important;
+  @media only screen and (max-width: 1050px) {
+    font-size: 24px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 22px;
+  }
+}
+
+.rowhome {
+  margin-right: 726px !important;
+  gap: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  @media only screen and (max-width: 1440px) {
+    margin-right: 0px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.columnprice {
+  margin-top: 188px;
+  padding-left: 12px;
+  padding-right: 12px;
+  @media only screen and (max-width: 1440px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.rowprice {
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+}
+
+.price {
+  color: transparent !important;
+  font-family: Abril Fatface !important;
+  text-transform: uppercase;
+  z-index: 1;
+  align-self: end;
+  position: relative;
+  background: linear-gradient(180deg, #262626, #b8c2ce);
+  background-clip: text;
+  width: 52%;
+  line-height: 75px;
+  @media only screen and (max-width: 1440px) {
+    width: 52%;
+    font-size: 48px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    align-self: auto;
+    width: 100%;
+  }
+}
+
+.image {
+  height: 532px;
+  margin-left: -34px;
+  position: relative;
+  width: 46%;
+  object-fit: contain;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+.columnverstappe {
+  margin-top: 48px;
+  width: 84%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.columnandrewben {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.andrewbenson {
+  color: var(--gray_900_99) !important;
+  @media only screen and (max-width: 1050px) {
+    font-size: 26px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 24px;
+  }
+}
+
+.f1 {
+  color: var(--gray_900_99) !important;
+}
+
+.description-5 {
+  color: var(--black_900) !important;
+  margin-top: 8px;
+  width: 98%;
+  line-height: 40px;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    font-size: 34px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 32px;
+  }
+}
+
+.verstappens {
+  width: 100%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.columnverstappe-2 {
+  margin-top: 20px;
+}
+
+.columnevenso {
+  margin-top: 16px;
+}
+
+.description-9 {
+  margin-top: 20px;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.description-10 {
+  margin-top: 14px;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.image_one {
+  height: 510px;
+  margin-top: 54px;
+  margin-left: 20px;
+  margin-right: 264px;
+  object-fit: cover;
+  width: 100%;
+  @media only screen and (max-width: 1440px) {
+    height: auto;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.columnverstappe-1 {
+  margin-top: 20px;
+}
+
+.verstappen {
+  color: var(--black_900) !important;
+  @media only screen and (max-width: 1050px) {
+    font-size: 34px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 32px;
+  }
+}
+
+.verstappen_one {
+  margin-top: 4px;
+  width: 100%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.description {
+  margin-top: 20px;
+  width: 98%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.norrisdefended {
+  margin-top: 18px;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.description-1 {
+  margin-top: 6px;
+  width: 100%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.description-2 {
+  margin-top: 38px;
+  width: 98%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.description-3 {
+  width: 98%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.description-4 {
+  margin-top: 24px;
+  width: 98%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.column {
+  margin-top: 28px;
+  margin-right: 24px;
+  align-self: stretch;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.description-12 {
+  margin-top: -14px;
+  position: relative;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+.size-text2xl {
+  letter-spacing: 0.05em; /* Adjust the value as needed */
+}
+
+.size-textxl {
+  letter-spacing: 0.05em; /* Adjust the value as needed */
+}
+
+.size-textlg {
+  letter-spacing: 0.05em; /* Adjust the value as needed */
+}
+
+.size-headingxs {
+  letter-spacing: 0.05em; /* Adjust the value as needed */
+}
+
+.size-headingmd {
+  letter-spacing: 0.05em; /* Adjust the value as needed */
+}
+.description-12 {
+  letter-spacing: 0.05em; /* Adjust the value as needed */
+}

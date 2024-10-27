@@ -1,0 +1,768 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Common CSS
+--------------------------------------*/
+.home-2 {
+  letter-spacing: 0.15px;
+}
+
+.columnline_one {
+  gap: var(--space-lg);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.rowbeckyhartsix {
+  gap: var(--space-xl);
+  display: flex;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.image-1 {
+  height: 184px;
+  align-self: center;
+  width: 48%;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.columnbeckyhart {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.martinbrundle {
+  color: var(--gray_900_99) !important;
+}
+
+.f1andfia {
+  color: var(--gray_900) !important;
+  font-family: Abhaya Libre !important;
+  width: 100%;
+  line-height: 136.9%;
+}
+
+.description-5 {
+  color: var(--gray_700) !important;
+  width: 100%;
+  line-height: 123.9%;
+}
+
+.line_one {
+  height: 1px;
+  background-color: var(--blue_gray_200);
+}
+
+.rowformulaone {
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.trendingnews {
+  font-family: Abhaya Libre !important;
+  @media only screen and (max-width: 1050px) {
+    font-size: 22px;
+  }
+}
+
+.price-1 {
+  font-weight: 500 !important;
+}
+
+.hulkenberg {
+  font-family: Abhaya Libre !important;
+  width: 100%;
+  line-height: 29px;
+  @media only screen and (max-width: 1050px) {
+    font-size: 26px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 24px;
+  }
+}
+
+.description-3 {
+  color: var(--gray_700) !important;
+  margin-top: 8px;
+  width: 100%;
+  line-height: 123.9%;
+}
+
+/*-------------------------------------
+  2. Page CSS
+--------------------------------------*/
+.home {
+  gap: var(--space-4xl);
+  background-color: var(--white_a700);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  @media only screen and (max-width: 1440px) {
+    gap: var(--space-4xl);
+  }
+
+  @media only screen and (max-width: 1050px) {
+    gap: 58px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    gap: 39px;
+  }
+}
+
+.headerformulane {
+  display: flex;
+  background-color: var(--red_a700);
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: var(--space-md) 20px;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.formulanews {
+  color: var(--black_900) !important;
+  letter-spacing: 0.3px;
+  font-family: Genos !important;
+  @media only screen and (max-width: 1050px) {
+    font-size: 24px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 22px;
+  }
+}
+
+.row {
+  margin-right: 716px;
+  display: flex;
+  padding: 18px 10px;
+  @media only screen and (max-width: 1440px) {
+    margin-right: 0px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.rowhome {
+  gap: 38px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newscreenbody {
+  margin-bottom: 4px;
+  gap: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stackprice {
+  height: 642px;
+  padding-left: 166px;
+  padding-right: 166px;
+  align-self: stretch;
+  position: relative;
+  @media only screen and (max-width: 1440px) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.image {
+  height: 532px;
+  width: 46%;
+  object-fit: contain;
+  position: absolute;
+  bottom: 1px;
+  right: 9%;
+  margin: auto;
+}
+
+.columnprice {
+  gap: var(--space-md);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+}
+
+.price {
+  color: transparent !important;
+  font-family: Abril Fatface !important;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #262626, #b8c2ce);
+  background-clip: text;
+  width: 54%;
+  line-height: 75px;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+    font-size: 48px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.columndescripti {
+  gap: var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.description-1 {
+  margin-left: 4px;
+  font-family: Abhaya Libre !important;
+  line-height: 136.9%;
+  @media only screen and (max-width: 1050px) {
+    font-size: 26px;
+    margin-left: 0px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 24px;
+  }
+}
+
+.continue {
+  color: var(--indigo_50);
+  padding-left: 32px;
+  padding-right: 32px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: var(--gray_900);
+  text-align: center;
+  height: 62px;
+  min-width: 284px;
+  border-radius: var(--radius-sm);
+  @media only screen and (max-width: 1440px) {
+    font-size: 17px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.row_one {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+
+.rowtrendingnews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 1440px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.columntrendingn {
+  gap: var(--space-sm);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.home-1 {
+  margin-right: 68px;
+  gap: var(--space-3xl);
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.column {
+  gap: 4px;
+  align-self: end;
+  display: flex;
+  width: 42%;
+  flex-direction: column;
+  align-items: end;
+  @media only screen and (max-width: 1050px) {
+    align-self: auto;
+    width: 100%;
+  }
+}
+
+.columnthreewhit {
+  gap: var(--space-md);
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: end;
+}
+
+.threewhiteshu {
+  height: 260px;
+  width: 90%;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+}
+
+.columnmartinbru {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.sergioperez {
+  font-family: Abhaya Libre !important;
+  width: 100%;
+  line-height: 29px;
+}
+
+.description-2 {
+  color: var(--gray_700) !important;
+  width: 90%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.stackformulacou {
+  height: 534px;
+  align-self: stretch;
+  position: relative;
+  align-content: center;
+  @media only screen and (max-width: 1440px) {
+    height: auto;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.row_two {
+  display: flex;
+  justify-content: center;
+  @media only screen and (max-width: 1440px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.image_one {
+  height: 534px;
+  border-top-right-radius: var(--radius-sm);
+  border-top-left-radius: var(--radius-sm);
+  opacity: 0.6;
+  width: 100%;
+  object-fit: cover;
+  @media only screen and (max-width: 1440px) {
+    height: auto;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.columnformulaco {
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 1584px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+  height: max-content;
+  margin: auto;
+}
+
+.formulacounter {
+  color: var(--blue_gray_50) !important;
+  margin-left: 4px;
+  text-transform: capitalize;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.sami {
+  color: var(--black_900) !important;
+  margin-top: 218px;
+  font-family: Abhaya Libre !important;
+  text-transform: capitalize;
+}
+
+.thatsthe {
+  font-family: Abhaya Libre !important;
+  text-transform: capitalize;
+  width: 48%;
+  line-height: 136.9%;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.description {
+  color: var(--black_900) !important;
+  font-weight: 700 !important;
+  width: 44%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.column_two {
+  gap: var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+}
+
+.columnrecentnew {
+  gap: 10px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.stackkaratefigh {
+  height: 520px;
+  align-self: stretch;
+  position: relative;
+}
+
+.karatefighters {
+  height: 520px;
+  width: 90%;
+  object-fit: contain;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: var(--radius-sm);
+}
+
+.columnhamilton {
+  gap: var(--space-xs);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  bottom: 14.68px;
+  right: 0px;
+  left: 0px;
+  margin: auto 8px;
+  @media only screen and (max-width: 1440px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.hamilton {
+  color: var(--white_a700) !important;
+}
+
+.description-7 {
+  color: var(--blue_gray_50) !important;
+  font-family: Abhaya Libre !important;
+  width: 68%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.column_one {
+  gap: var(--space-4xl);
+  align-self: end;
+  display: flex;
+  width: 46%;
+  flex-direction: column;
+  @media only screen and (max-width: 1440px) {
+    gap: var(--space-4xl);
+  }
+
+  @media only screen and (max-width: 1050px) {
+    align-self: auto;
+    width: 100%;
+    gap: 58px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    gap: 39px;
+  }
+}
+
+.rowprice {
+  gap: var(--space-sm);
+  display: flex;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.image_three {
+  height: 218px;
+  align-self: center;
+  width: 60%;
+  object-fit: contain;
+  border-radius: var(--radius-xs);
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.columnhowferrar {
+  gap: var(--space-xs);
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.howferraris {
+  font-family: Abhaya Libre !important;
+  width: 100%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1050px) {
+    font-size: 26px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 24px;
+  }
+}
+
+.row_four {
+  margin-right: 8px;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.rowroadtof1fift {
+  gap: var(--space-sm);
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.image_five {
+  height: 224px;
+  width: 60%;
+  object-fit: contain;
+  border-radius: var(--radius-xs);
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.columnroadtof1f {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.f2verschoor {
+  font-family: Abhaya Libre !important;
+  width: 100%;
+  line-height: 123.9%;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.columnformulaon {
+  gap: var(--space-xs);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+}
+
+.columnbasketbal-1 {
+  gap: 18px;
+  display: flex;
+  width: 96%;
+  flex-direction: column;
+  @media only screen and (max-width: 1440px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.basketball_one {
+  height: 274px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+
+.columnlandonorr {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.columnbasketbal {
+  gap: 16px;
+  align-self: end;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  @media only screen and (max-width: 1050px) {
+    align-self: auto;
+  }
+}
+
+.basketball {
+  height: 274px;
+  margin-left: 36px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.columndavidcrof {
+  margin-left: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
